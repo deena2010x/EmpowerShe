@@ -28,6 +28,14 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('wallpaper.jpg');
   background-repeat: no-repeat;
 }
+
+.donate {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url('donate1.jpg');
+  background-repeat: no-repeat;
+  background-size: 1420px 400px;
+  height: 500px;
+}
+
 	
 body,
 button,
@@ -72,6 +80,14 @@ img {
   font-size: 1.25rem;
   color: var(--dark-two);
   line-height: 1.6;
+}
+
+.text1 {
+  font-size: 3.25rem;
+  color: white;
+  line-height: 1.2;
+  font-family: "Garamond", sans-serif;
+
 }
 
 .column-1 {
@@ -202,11 +218,6 @@ nav .container {
   align-items: center;
 }
 
-.logo {
-  width: 80px;
-  display: flex;
-  align-items: center;
-}
 
 .links ul {
   display: flex;
@@ -989,6 +1000,13 @@ nav.open .links {
   .links a {
     color: var(--light-one);
   }
+
+
+
+
+
+
+
 
   .links a.active {
     margin-left: 0;
